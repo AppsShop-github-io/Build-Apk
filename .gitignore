@@ -12,3 +12,29 @@
 
 pkg/
 src/
+html/
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBPouE_B9NwzsAgqmMZLk0J8u6IjhB9gBI",
+    authDomain: "sub-olshoop.firebaseapp.com",
+    databaseURL: "https://sub-olshoop.firebaseio.com",
+    projectId: "sub-olshoop",
+    storageBucket: "sub-olshoop.appspot.com",
+    messagingSenderId: "619672295492",
+    appId: "1:619672295492:web:9fb261c03191aee5868411",
+    measurementId: "G-N2YZQZD31X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<body/>
